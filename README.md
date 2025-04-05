@@ -69,11 +69,11 @@ Bu proje, e-posta içeriğini analiz etmek ve bu e-postaların spam olup olmadı
 * Bu proje, e-posta verilerini içeren bir CSV dosyası (`emails.csv`) kullanmaktadır.
 * CSV dosyası, e-posta içeriğini içeren bir 'text' sütunu ve e-postanın spam (1) veya ham (0) olup olmadığını belirten bir 'spam' sütunu içermelidir.
 * Veri seti, eğitim ve test kümelerine ayrılmadan önce karıştırılır.
-* Veri setinin nasıl elde edildiğine dair ek bilgileri buraya ekleyebilirsiniz (örneğin, bir kamu veri setinden veya kendi topladığınız verilerden).
+
 
 ## Modelin Performansı
 
-Proje, hem standart hem de logaritmik Naive Bayes algoritmalarını kullanarak e-postaları sınıflandırır. Test veri seti üzerinde elde edilen performans metrikleri şunlardır:
+Proje, hem standart hem de logaritmik Naive Bayes algoritmalarını kullanarak e-postaları sınıflandırmaktadır. Test veri seti üzerinde elde edilen performans metriği doğruluktur.
 
 **Standart Naive Bayes:**
 *** Doğruluk: 0.8613 ***
@@ -83,7 +83,7 @@ Proje, hem standart hem de logaritmik Naive Bayes algoritmalarını kullanarak e
 
 
 
-Model, test veri setindeki e-postaların doğru sınıflandırılmasında bu oranlarda başarı göstermiştir. Geri çağırma, spam e-postaların ne kadarının doğru tespit edildiğini gösterirken, kesinlik ise pozitif olarak tahmin edilen e-postaların ne kadarının gerçekten spam olduğunu gösterir.
+Model, test veri setindeki e-postaların doğru sınıflandırılmasında bu oranlarda başarı göstermiştir.
 
 ## Logaritmik Olasılıklar
 
