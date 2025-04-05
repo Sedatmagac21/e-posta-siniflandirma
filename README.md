@@ -116,4 +116,4 @@ Bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin
 * Hem standart hem de logaritmik Naive Bayes sınıflandırıcıları, kelime frekansları ve sınıf olasılıkları temel alınarak sıfırdan implemente edilmiştir.
 * Modelin performansı, kullanılan veri setinin büyüklüğüne ve içeriğine bağlı olarak değişebilir. Logaritmik yaklaşım, özellikle çok sayıda kelime içeren e-postalarda sayısal kararlılık açısından avantaj sağlayabilir.
 
-Bu güncellenmiş README dosyası, projenizin tüm yönlerini ve implementasyon detaylarını kapsamaktadır. GitHub deponuzdaki README.md dosyasına bu içeriği kopyalayıp kullanabilirsiniz. Elde ettiğiniz gerçek performans metriklerini ([elde_edilen_doğruluk_değeri] vb.) ilgili yerlere eklemeyi unutmayın. Başarılar dilerim!
+
